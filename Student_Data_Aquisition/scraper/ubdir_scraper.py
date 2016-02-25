@@ -16,19 +16,21 @@ import json
 
 import requests
 
+from texter import Texter
+
 START_TIME = time()
-SLEEP_TIME = 2
+WAIT_TIME = 2
 PP = PrettyPrinter(indent=4)
 
 QUERY_URL = "http://www.buffalo.edu/directory/search"
 QUERY_URL += "?query=%s"
-QUERY_URL += "&affiliation=%s"
+QUERY_URL += "&affiliation=student"
 QUERY_URL += "&qualifier=%s"
 QUERY_URL += "&perpage=%i"
 QUERY_URL += "&start=0"
 
 
-def getQueryPageTree(query, perpage=1, affiliation='student', qualifier='lastname'):
+def getQueryPageTree(query, perpage=1, qualifier='lastname'):
     """
     Gets DOM tree from http://www.buffalo.edu/directory/ based on passed query
         criteria.
@@ -40,17 +42,17 @@ def getQueryPageTree(query, perpage=1, affiliation='student', qualifier='lastnam
     # This sometimes requires wait times to let the server cool off
     while True:
         # Get query page, query page tree, and connection overload element
-        queryPage = requests.get(QUERY_URL % (query, affiliation, qualifier, perpage))
+        queryPage = requests.get(QUERY_URL % (query, qualifier, perpage))
         queryPageTree = html.fromstring(queryPage.content)
         connectionOverloadElement = queryPageTree.xpath("//p[text()='Too many connections.']")
 
         # Check for OK status code and connection overload
         if queryPage.status_code != 200:
-            print "Status code not 'OK', sleeping for %i seconds" % SLEEP_TIME
-            sleep(SLEEP_TIME)
+            print "Status code not 'OK', sleeping for %i seconds" % WAIT_TIME
+            sleep(WAIT_TIME)
         elif connectionOverloadElement:
-            print "Too many connections, sleeping for %i seconds" % (SLEEP_TIME*3)
-            sleep(SLEEP_TIME*3)
+            print "Too many connections, sleeping for %i seconds" % (WAIT_TIME*3)
+            sleep(WAIT_TIME*3)
         else:
             # The query received should be good, return the DOM tree
             return queryPageTree
@@ -144,7 +146,7 @@ def getUBIT(targetName, targetMajor):
         if target['major'].lower() != candidate['Department'].lower():
             continue
         # ...and those whose last name does not exist in their entry name
-        if not target['lastName'].lower() in candidate['Name'].lower():
+        if target['lastName'].lower() not in candidate['Name'].lower():
             continue
         # # ...same as above, but for first name
         # if not target['firstName'].lower() in candidate['Name'].lower():
@@ -177,15 +179,21 @@ with open(inFileName) as inFile:
             continue
         queriedLastNames.add(lastName)
         print '\n\n' + name + ':'
-        try:
-            matches = getUBIT(name, 'Computer Engineering')
-            students.update(matches)
-            PP.pprint(matches)
-        except KeyError as e:
-            print e
-            print "Adding %s to unfound students list" % name
-            unfoundStudents.append(name)
-        sleep(SLEEP_TIME)
+        while True:
+            sleep(WAIT_TIME)
+            try:
+                matches = getUBIT(name, 'Computer Engineering')
+                students.update(matches)
+                PP.pprint(matches)
+            except IndexError:
+                # Try again because it was likely an HTML retrieval error
+                continue
+            except KeyError as e:
+                # No viable candidate found in getUBIT
+                print e
+                print "Adding %s to unfound students list" % name
+                unfoundStudents.append(name)
+            break
 
 print 'Students not found:'
 PP.pprint(unfoundStudents)
@@ -194,4 +202,10 @@ outFileName = os.path.join(os.getcwd(), 'UB_CEN_Info.json')
 with open(outFileName, 'w') as outFile:
     json.dump(students, outFile)
 
-print "Elapsed time: %s" % (time() - START_TIME)
+elapsedTime = time() - START_TIME
+print "Elapsed time: %s" % elapsedTime
+
+tr = Texter()
+tr.key = 'chattyKathy'
+tr.send("'ubdir_scraper.py' has finished after %s seconds." % elapsedTime)
+tr.send("Students not found: %s" % '\n'.join(unfoundStudents))
