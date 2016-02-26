@@ -22,8 +22,8 @@ START_TIME = time()
 WAIT_TIME = 2
 PP = PrettyPrinter(indent=4)
 
-QUERY_URL = "http://www.buffalo.edu/directory/search"
-QUERY_URL += "?query=%s"
+QUERY_URL = "http://www.buffalo.edu/directory/"
+QUERY_URL += "search?query=%s"
 QUERY_URL += "&affiliation=student"
 QUERY_URL += "&qualifier=%s"
 QUERY_URL += "&perpage=%i"
