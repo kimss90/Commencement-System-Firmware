@@ -179,24 +179,22 @@ with open(inFileName) as inFile:
             continue
         queriedLastNames.add(lastName)
         print '\n\n' + name + ':'
-        while True:
-            sleep(WAIT_TIME)
-            try:
-                matches = getUBIT(name, 'Computer Engineering')
-                students.update(matches)
-                PP.pprint(matches)
-            except IndexError as e:
-                # Try again because it was likely an HTML retrieval error
-                print "Index error received for %s" % name
-                print e
-                print "Adding %s to unfound students list" % name
-                unfoundStudents.append(name)
-            except KeyError as e:
-                # No viable candidate found in getUBIT
-                print e
-                print "Adding %s to unfound students list" % name
-                unfoundStudents.append(name)
-            break
+        try:
+            matches = getUBIT(name, 'Computer Engineering')
+            students.update(matches)
+            PP.pprint(matches)
+        except IndexError as e:
+            # Try again because it was likely an HTML retrieval error
+            print "Index error received for %s" % name
+            print e
+            print "Adding %s to unfound students list" % name
+            unfoundStudents.append(name)
+        except KeyError as e:
+            # No viable candidate found in getUBIT
+            print e
+            print "Adding %s to unfound students list" % name
+            unfoundStudents.append(name)
+        sleep(WAIT_TIME)
 
 print 'Students not found:'
 PP.pprint(unfoundStudents)
