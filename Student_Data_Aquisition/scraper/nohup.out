@@ -1,0 +1,846 @@
+
+
+Paul Babala:
+{   'paulbaba': {   'Department': 'Computer Engineering',
+                    'Email': 'paulbaba@buffalo.edu',
+                    'Name': 'Paul M Babala',
+                    'Title': 'Student',
+                    'UBIT': 'paulbaba'}}
+
+
+Manomit Bal:
+{   'manomitb': {   'Department': 'Computer Engineering',
+                    'Email': 'manomitb@buffalo.edu',
+                    'Name': 'Manomit Bal',
+                    'Title': 'Student',
+                    'UBIT': 'manomitb'}}
+
+
+Arunan Bala Krishnan:
+'No viable candidates found for Arunan Bala Krishnan'
+Adding Arunan Bala Krishnan to unfound students list
+
+
+Andrew Booth:
+{   'adbooth': {   'Department': 'Computer Engineering',
+                   'Email': 'adbooth@buffalo.edu',
+                   'Name': 'Andrew D Booth',
+                   'Title': 'Student',
+                   'UBIT': 'adbooth'}}
+
+
+Daziana Bufford:
+{   'dazianab': {   'Department': 'Computer Engineering',
+                    'Email': 'dazianab@buffalo.edu',
+                    'Name': 'Daziana Bufford',
+                    'Title': 'Student',
+                    'UBIT': 'dazianab'}}
+
+
+Keith Carolus:
+{   'kmcarolu': {   'Department': 'Computer Engineering',
+                    'Email': 'kmcarolu@buffalo.edu',
+                    'Name': 'Keith M Carolus',
+                    'Title': 'Undergraduate Teaching Assistant',
+                    'UBIT': 'kmcarolu'}}
+
+
+Alexander Ceci:
+{   'ajceci': {   'Department': 'Computer Engineering',
+                  'Email': 'ajceci@buffalo.edu',
+                  'Name': 'Alexander J Ceci',
+                  'Title': 'Student',
+                  'UBIT': 'ajceci'}}
+
+
+Nicholas Cellino:
+{   'nacellin': {   'Department': 'Computer Engineering',
+                    'Email': 'nacellin@buffalo.edu',
+                    'Name': 'Nicholas A Cellino',
+                    'Title': 'Student',
+                    'UBIT': 'nacellin'}}
+
+
+Ava Chai:
+{   'avachai': {   'Department': 'Computer Engineering',
+                   'Email': 'avachai@buffalo.edu',
+                   'Name': 'Ava Chai',
+                   'Title': 'Student',
+                   'UBIT': 'avachai'}}
+
+
+Justin Charlong:
+{   'jrcharlo': {   'Department': 'Computer Engineering',
+                    'Email': 'jrcharlo@buffalo.edu',
+                    'Name': 'Justin R Charlong',
+                    'Title': 'Student',
+                    'UBIT': 'jrcharlo'}}
+
+
+Yi Chen:
+'Department'
+Adding Yi Chen to unfound students list
+
+
+Woo Suk Choi:
+{   'woosukch': {   'Department': 'Computer Engineering',
+                    'Email': 'woosukch@buffalo.edu',
+                    'Name': 'Woo Suk Choi',
+                    'Title': 'Student',
+                    'UBIT': 'woosukch'}}
+
+
+Sanjeevani Choudhery:
+{   'schoudhe': {   'Department': 'Computer Engineering',
+                    'Email': 'schoudhe@buffalo.edu',
+                    'Name': 'Sanjeevani Choudhery',
+                    'Title': 'Student',
+                    'UBIT': 'schoudhe'}}
+
+
+Evan Christensen:
+Status code not 'OK', sleeping for 2 seconds
+{   'echriste': {   'Department': 'Computer Engineering',
+                    'Email': 'echriste@buffalo.edu',
+                    'Name': 'Evan A Christensen',
+                    'Title': 'Student',
+                    'UBIT': 'echriste'}}
+
+
+Drew Clark:
+{   'drewclar': {   'Department': 'Computer Engineering',
+                    'Email': 'drewclar@buffalo.edu',
+                    'Name': 'Drew Clark',
+                    'Title': 'President, Theta Tau',
+                    'UBIT': 'drewclar'},
+    'wjclark': {   'Department': 'Computer Engineering',
+                   'Email': 'wjclark@buffalo.edu',
+                   'Name': 'William J Clark',
+                   'Title': 'Student',
+                   'UBIT': 'wjclark'}}
+William Clark's last name (Clark) has been queried, skip
+
+
+Edward Crow:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'No viable candidates found for Edward Crow'
+Adding Edward Crow to unfound students list
+
+
+Robert DeBortoli:
+Status code not 'OK', sleeping for 2 seconds
+{   'radebort': {   'Department': 'Computer Engineering',
+                    'Email': 'radebort@buffalo.edu',
+                    'Name': 'Robert DeBortoli',
+                    'Title': 'Student',
+                    'UBIT': 'radebort'}}
+
+
+Sameep Dhawan:
+{   'sameepdh': {   'Department': 'Computer Engineering',
+                    'Email': 'sameepdh@buffalo.edu',
+                    'Name': 'Sameep Dhawan',
+                    'Title': 'Student',
+                    'UBIT': 'sameepdh'}}
+
+
+Alexander Ding:
+Status code not 'OK', sleeping for 2 seconds
+{   'ajding': {   'Department': 'Computer Engineering',
+                  'Email': 'ajding@buffalo.edu',
+                  'Name': 'Alexander J Ding',
+                  'Title': 'Student',
+                  'UBIT': 'ajding'},
+    'hding3': {   'Department': 'Computer Engineering',
+                  'Email': 'hding3@buffalo.edu',
+                  'Name': 'Huangwei Ding',
+                  'Title': 'Student',
+                  'UBIT': 'hding3'},
+    'qiding': {   'Department': 'Computer Engineering',
+                  'Email': 'qiding@buffalo.edu',
+                  'Name': 'Qi Ding',
+                  'Title': 'Student',
+                  'UBIT': 'qiding'}}
+
+
+Kevin Duggan:
+Too many connections, sleeping for 6 seconds
+{   'kevindug': {   'Department': 'Computer Engineering',
+                    'Email': 'kevindug@buffalo.edu',
+                    'Name': 'Kevin L Duggan',
+                    'Title': 'Student',
+                    'UBIT': 'kevindug'}}
+
+
+Zachary Esmaelzada:
+Status code not 'OK', sleeping for 2 seconds
+{   'zbesmael': {   'Department': 'Computer Engineering',
+                    'Email': 'zbesmael@buffalo.edu',
+                    'Name': 'Zachary B Esmaelzada',
+                    'Title': 'Student',
+                    'UBIT': 'zbesmael'}}
+
+
+Michael Ferris:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'mrferris': {   'Department': 'Computer Engineering',
+                    'Email': 'mrferris@buffalo.edu',
+                    'Name': 'Michael R Ferris',
+                    'Title': 'Student',
+                    'UBIT': 'mrferris'}}
+
+
+Nolan Foster:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'nolanfos': {   'Department': 'Computer Engineering',
+                    'Email': 'nolanfos@buffalo.edu',
+                    'Name': 'Nolan Foster',
+                    'Title': 'Student',
+                    'UBIT': 'nolanfos'}}
+
+
+Andres Garcia:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'andresga': {   'Department': 'Computer Engineering',
+                    'Email': 'andresga@buffalo.edu',
+                    'Name': 'Andres F Garcia',
+                    'Title': 'Student',
+                    'UBIT': 'andresga'}}
+
+
+Jonathan Goodrum:
+Status code not 'OK', sleeping for 2 seconds
+{   'jcgoodru': {   'Department': 'Computer Engineering',
+                    'Email': 'jcgoodru@buffalo.edu',
+                    'Name': 'Jonathan Goodrum',
+                    'Title': 'Student',
+                    'UBIT': 'jcgoodru'}}
+
+
+Dominique Hickson:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'dnhickso': {   'Department': 'Computer Engineering',
+                    'Email': 'dnhickso@buffalo.edu',
+                    'Name': 'Dominique N Hickson',
+                    'Title': 'Student',
+                    'UBIT': 'dnhickso'}}
+
+
+Matthew Howard:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+Too many connections, sleeping for 6 seconds
+{   'mthoward': {   'Department': 'Computer Engineering',
+                    'Email': 'mthoward@buffalo.edu',
+                    'Name': 'Matthew T Howard',
+                    'Title': 'Student',
+                    'UBIT': 'mthoward'}}
+
+
+Kai Hsiang Hsu:
+{   'khsu7': {   'Department': 'Computer Engineering',
+                 'Email': 'khsu7@buffalo.edu',
+                 'Name': 'Kai Hsiang Hsu',
+                 'Title': 'Student',
+                 'UBIT': 'khsu7'}}
+
+
+Zhen Rong Huang:
+'Department'
+Adding Zhen Rong Huang to unfound students list
+
+
+Nathaniel Hutchings:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'ndhutchi': {   'Department': 'Computer Engineering',
+                    'Email': 'ndhutchi@buffalo.edu',
+                    'Name': 'Nathaniel D Hutchings',
+                    'Title': 'Student',
+                    'UBIT': 'ndhutchi'}}
+
+
+Yousef Jaber:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'yousefja': {   'Department': 'Computer Engineering',
+                    'Email': 'yousefja@buffalo.edu',
+                    'Name': 'Yousef Jaber',
+                    'Title': 'Student',
+                    'UBIT': 'yousefja'}}
+
+
+Kevin Jiang:
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'kevinjia': {   'Department': 'Computer Engineering',
+                    'Email': 'kevinjia@buffalo.edu',
+                    'Name': 'Kevin Jiang',
+                    'Title': 'Student',
+                    'UBIT': 'kevinjia'}}
+
+
+Mark Jones:
+{   'mjjones4': {   'Department': 'Computer Engineering',
+                    'Email': 'mjjones4@buffalo.edu',
+                    'Name': 'Mark J Jones',
+                    'Title': 'Student',
+                    'UBIT': 'mjjones4'}}
+
+
+Saisao Kham:
+Status code not 'OK', sleeping for 2 seconds
+{   'saisaokh': {   'Department': 'Computer Engineering',
+                    'Email': 'saisaokh@buffalo.edu',
+                    'Name': 'Saisao Kham',
+                    'Title': 'Student',
+                    'UBIT': 'saisaokh'}}
+
+
+Seongsu Kim:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'dkim39': {   'Department': 'Computer Engineering',
+                  'Email': 'dkim39@buffalo.edu',
+                  'Name': 'Dongjun Kim',
+                  'Title': 'Student',
+                  'UBIT': 'dkim39'},
+    'seongsuk': {   'Department': 'Computer Engineering',
+                    'Email': 'seongsuk@buffalo.edu',
+                    'Name': 'Seongsu Kim',
+                    'Title': 'Student',
+                    'UBIT': 'seongsuk'}}
+
+
+Alexander Kirschner:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'ajkirsch': {   'Department': 'Computer Engineering',
+                    'Email': 'ajkirsch@buffalo.edu',
+                    'Name': 'Alexander J Kirschner',
+                    'Title': 'Student',
+                    'UBIT': 'ajkirsch'}}
+
+
+Hermes Ko:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'daeyeong': {   'Department': 'Computer Engineering',
+                    'Email': 'daeyeong@buffalo.edu',
+                    'Name': 'Daeyeong Ko',
+                    'Title': 'Student',
+                    'UBIT': 'daeyeong'},
+    'hermesko': {   'Department': 'Computer Engineering',
+                    'Email': 'hermesko@buffalo.edu',
+                    'Name': 'Hermes Ko',
+                    'Title': 'Student',
+                    'UBIT': 'hermesko'}}
+
+
+Bin Li:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+'Department'
+Adding Bin Li to unfound students list
+
+
+Xuanyu Lu:
+Status code not 'OK', sleeping for 2 seconds
+{   'xuanyulu': {   'Department': 'Computer Engineering',
+                    'Email': 'xuanyulu@buffalo.edu',
+                    'Name': 'Xuanyu Lu',
+                    'Title': 'Student',
+                    'UBIT': 'xuanyulu'}}
+
+
+Vivian Luo:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'vluo': {   'Department': 'Computer Engineering',
+                'Email': 'vluo@buffalo.edu',
+                'Name': 'Vivian Luo',
+                'Title': 'Student',
+                'UBIT': 'vluo'}}
+
+
+Ali Mahmoud:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'alimahmo': {   'Department': 'Computer Engineering',
+                    'Email': 'alimahmo@buffalo.edu',
+                    'Name': 'Ali Mahmoud',
+                    'Title': 'Student',
+                    'UBIT': 'alimahmo'}}
+
+
+William Martens:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'wmartens': {   'Department': 'Computer Engineering',
+                    'Email': 'wmartens@buffalo.edu',
+                    'Name': 'William Martens',
+                    'Title': 'Student',
+                    'UBIT': 'wmartens'}}
+
+
+Nathan Maurer:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'namaurer': {   'Department': 'Computer Engineering',
+                    'Email': 'namaurer@buffalo.edu',
+                    'Name': 'Nathan A Maurer',
+                    'Title': 'Student',
+                    'UBIT': 'namaurer'}}
+
+
+John Mckissick IV:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Index error received for John Mckissick IV
+list index out of range
+Adding John Mckissick IV to unfound students list
+
+
+Shawn Milligan:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'shawnmil': {   'Department': 'Computer Engineering',
+                    'Email': 'shawnmil@buffalo.edu',
+                    'Name': 'Shawn M Milligan',
+                    'Title': 'Student',
+                    'UBIT': 'shawnmil'}}
+
+
+Joseph Morrello:
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'jamorrel': {   'Department': 'Computer Engineering',
+                    'Email': 'jamorrel@buffalo.edu',
+                    'Name': 'Joseph A Morrello',
+                    'Title': 'Grandmaster General',
+                    'UBIT': 'jamorrel'}}
+
+
+Ronald Odde:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'rsodde': {   'Department': 'Computer Engineering',
+                  'Email': 'rsodde@buffalo.edu',
+                  'Name': 'Ronald S Odde',
+                  'Title': 'Student',
+                  'UBIT': 'rsodde'}}
+
+
+Ivaylo Rumenov Parankinov:
+Too many connections, sleeping for 6 seconds
+{   'ivaylopa': {   'Department': 'Computer Engineering',
+                    'Email': 'ivaylopa@buffalo.edu',
+                    'Name': 'Ivaylo Rumenov Parankinov',
+                    'Title': 'Student',
+                    'UBIT': 'ivaylopa'}}
+
+
+Jared Payne:
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'jaredpay': {   'Department': 'Computer Engineering',
+                    'Email': 'jaredpay@buffalo.edu',
+                    'Name': 'Jared M Payne',
+                    'Title': 'Student',
+                    'UBIT': 'jaredpay'}}
+
+
+Joseph Peacock:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'japeacoc': {   'Department': 'Computer Engineering',
+                    'Email': 'japeacoc@buffalo.edu',
+                    'Name': 'Joseph A Peacock',
+                    'Title': 'Student',
+                    'UBIT': 'japeacoc'}}
+
+
+Satya Kranthi Penumanchili:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'satyakra': {   'Department': 'Computer Engineering',
+                    'Email': 'satyakra@buffalo.edu',
+                    'Name': 'Satya Kranthi Penumanchili',
+                    'Title': 'Student',
+                    'UBIT': 'satyakra'}}
+
+
+Mohsiur Rahman:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'mohsiurr': {   'Department': 'Computer Engineering',
+                    'Email': 'mohsiurr@buffalo.edu',
+                    'Name': 'Mohsiur Rahman',
+                    'Title': 'Student',
+                    'UBIT': 'mohsiurr'}}
+
+
+Mitchell Rathbun:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'kevinrat': {   'Department': 'Computer Engineering',
+                    'Email': 'kevinrat@buffalo.edu',
+                    'Name': 'Kevin J Rathbun',
+                    'Title': 'Student',
+                    'UBIT': 'kevinrat'},
+    'mrathbun': {   'Department': 'Computer Engineering',
+                    'Email': 'mrathbun@buffalo.edu',
+                    'Name': 'Mitchell Rathbun',
+                    'Title': 'Student',
+                    'UBIT': 'mrathbun'}}
+
+
+Jacob Rutowski:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'jacobrut': {   'Department': 'Computer Engineering',
+                    'Email': 'jacobrut@buffalo.edu',
+                    'Name': 'Jacob M Rutowski',
+                    'Title': 'Student',
+                    'UBIT': 'jacobrut'}}
+
+
+Edwin Santos:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'edwinsan': {   'Department': 'Computer Engineering',
+                    'Email': 'edwinsan@buffalo.edu',
+                    'Name': 'Edwin R Santos',
+                    'Title': 'Student',
+                    'UBIT': 'edwinsan'}}
+
+
+Thomas Schouten:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'tjschout': {   'Department': 'Computer Engineering',
+                    'Email': 'tjschout@buffalo.edu',
+                    'Name': 'Thomas J Schouten',
+                    'Title': 'Student',
+                    'UBIT': 'tjschout'}}
+
+
+Edward Selig:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'erselig': {   'Department': 'Computer Engineering',
+                   'Email': 'erselig@buffalo.edu',
+                   'Name': 'Edward R Selig',
+                   'Title': 'Student',
+                   'UBIT': 'erselig'}}
+
+
+Robert Shannon:
+Too many connections, sleeping for 6 seconds
+{   'rshannon': {   'Department': 'Computer Engineering',
+                    'Email': 'rshannon@buffalo.edu',
+                    'Name': 'Robert Shannon',
+                    'Title': 'Student',
+                    'UBIT': 'rshannon'}}
+
+
+Kayleigh Siejak:
+Too many connections, sleeping for 6 seconds
+{   'kaysiej': {   'Department': 'Computer Engineering',
+                   'Email': 'kaysiej@buffalo.edu',
+                   'Name': 'Kayleigh J Siejak',
+                   'Title': 'Student',
+                   'UBIT': 'kaysiej'}}
+
+
+Steven Siwinski:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'spsiwins': {   'Department': 'Computer Engineering',
+                    'Email': 'spsiwins@buffalo.edu',
+                    'Name': 'Steven P Siwinski',
+                    'Title': 'Student',
+                    'UBIT': 'spsiwins'}}
+
+
+Galya Stefanova:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'No viable candidates found for Galya Stefanova'
+Adding Galya Stefanova to unfound students list
+
+
+Tristan Syre:
+Too many connections, sleeping for 6 seconds
+{   'tgsyre': {   'Department': 'Computer Engineering',
+                  'Email': 'tgsyre@buffalo.edu',
+                  'Name': 'Tristan G Syre',
+                  'Title': 'Student',
+                  'UBIT': 'tgsyre'}}
+
+
+Jesse Taylor:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'jessetay': {   'Department': 'Computer Engineering',
+                    'Email': 'jessetay@buffalo.edu',
+                    'Name': 'Jesse Taylor',
+                    'Title': 'Student',
+                    'UBIT': 'jessetay'},
+    'mitchelt': {   'Department': 'Computer Engineering',
+                    'Email': 'mitchelt@buffalo.edu',
+                    'Name': 'Mitchel A Taylor',
+                    'Title': 'Student',
+                    'UBIT': 'mitchelt'}}
+
+
+Christopher Thomas:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'Department'
+Adding Christopher Thomas to unfound students list
+
+
+David Towson:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'davidtow': {   'Department': 'Computer Engineering',
+                    'Email': 'davidtow@buffalo.edu',
+                    'Name': 'David H Towson',
+                    'Title': 'Student',
+                    'UBIT': 'davidtow'}}
+
+
+Ethan Vane:
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'emvane': {   'Department': 'Computer Engineering',
+                  'Email': 'emvane@buffalo.edu',
+                  'Name': 'Ethan M Vane',
+                  'Title': 'Student',
+                  'UBIT': 'emvane'}}
+
+
+Rafael Vaz De Salles Gaia:
+Index error received for Rafael Vaz De Salles Gaia
+list index out of range
+Adding Rafael Vaz De Salles Gaia to unfound students list
+
+
+Ian Wilson:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'Department'
+Adding Ian Wilson to unfound students list
+
+
+Matthew Winnick:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'mywinnic': {   'Department': 'Computer Engineering',
+                    'Email': 'mywinnic@buffalo.edu',
+                    'Name': 'Matthew Y Winnick',
+                    'Title': 'Student',
+                    'UBIT': 'mywinnic'}}
+
+
+Bao Xu:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'Department'
+Adding Bao Xu to unfound students list
+
+
+Ledong Yang:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+'Department'
+Adding Ledong Yang to unfound students list
+
+
+Kai Zheng:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'kaizheng': {   'Department': 'Computer Engineering',
+                    'Email': 'kaizheng@buffalo.edu',
+                    'Name': 'Kai Zheng',
+                    'Title': 'Student',
+                    'UBIT': 'kaizheng'}}
+
+
+Haochen Zou:
+Status code not 'OK', sleeping for 2 seconds
+{   'haochenz': {   'Department': 'Computer Engineering',
+                    'Email': 'haochenz@buffalo.edu',
+                    'Name': 'Haochen Zou',
+                    'Title': 'Student',
+                    'UBIT': 'haochenz'}}
+
+
+Alex Barganier:
+Too many connections, sleeping for 6 seconds
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'alexbarg': {   'Department': 'Computer Engineering',
+                    'Email': 'alexbarg@buffalo.edu',
+                    'Name': 'Alex J Barganier',
+                    'Title': 'Student',
+                    'UBIT': 'alexbarg'}}
+
+
+June Hah:
+{   'junehah': {   'Department': 'Computer Engineering',
+                   'Email': 'junehah@buffalo.edu',
+                   'Name': 'June B Hah',
+                   'Title': 'Student',
+                   'UBIT': 'junehah'}}
+
+
+Wendy Jansson:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'wendyjan': {   'Department': 'Computer Engineering',
+                    'Email': 'wendyjan@buffalo.edu',
+                    'Name': 'Wendy Jansson',
+                    'Title': 'Student',
+                    'UBIT': 'wendyjan'}}
+
+
+Seth Karas:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'sethkara': {   'Department': 'Computer Engineering',
+                    'Email': 'sethkara@buffalo.edu',
+                    'Name': 'Seth M Karas',
+                    'Title': 'Student',
+                    'UBIT': 'sethkara'}}
+
+
+David Monahan:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'dmmonaha': {   'Department': 'Computer Engineering',
+                    'Email': 'dmmonaha@buffalo.edu',
+                    'Name': 'David M Monahan',
+                    'Title': 'Student',
+                    'UBIT': 'dmmonaha'}}
+
+
+Do Om:
+Status code not 'OK', sleeping for 2 seconds
+{   'doom': {   'Department': 'Computer Engineering',
+                'Email': 'doom@buffalo.edu',
+                'Name': 'Do Y Om',
+                'Title': 'Student',
+                'UBIT': 'doom'}}
+
+
+Melanie Phillips:
+Too many connections, sleeping for 6 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+Too many connections, sleeping for 6 seconds
+{   'mlbogdan': {   'Department': 'Computer Engineering',
+                    'Email': 'mlbogdan@buffalo.edu',
+                    'Name': 'Melanie Phillips',
+                    'Title': 'Student',
+                    'UBIT': 'mlbogdan'}}
+
+
+George Van Hoose:
+Index error received for George Van Hoose
+list index out of range
+Adding George Van Hoose to unfound students list
+
+
+David Weidenborner:
+Status code not 'OK', sleeping for 2 seconds
+Status code not 'OK', sleeping for 2 seconds
+{   'daw24': {   'Department': 'Computer Engineering',
+                 'Email': 'daw24@buffalo.edu',
+                 'Name': 'David A Weidenborner',
+                 'Title': 'Student',
+                 'UBIT': 'daw24'}}
+Students not found:
+[   'Arunan Bala Krishnan',
+    'Yi Chen',
+    'Edward Crow',
+    'Zhen Rong Huang',
+    'Bin Li',
+    'John Mckissick IV',
+    'Galya Stefanova',
+    'Christopher Thomas',
+    'Rafael Vaz De Salles Gaia',
+    'Ian Wilson',
+    'Bao Xu',
+    'Ledong Yang',
+    'George Van Hoose']
+Elapsed time: 804.57466197
+Sent
+Sent

@@ -196,17 +196,21 @@ with open(inFileName) as inFile:
             unfoundStudents.append(name)
         sleep(WAIT_TIME)
 
-print 'Students not found:'
-PP.pprint(unfoundStudents)
+print 'Students not found:\n'
+print '\n'.join(unfoundStudents)
 
 outFileName = os.path.join(os.getcwd(), 'UB_CEN_Info.json')
 with open(outFileName, 'w') as outFile:
     json.dump(students, outFile)
 
+missedStudentsFileName = os.path.join(os.getcwd(), 'UB_CEN_missing.txt')
+with open(missedStudentsFileName, 'w') as missedStudentsFile:
+    missedStudentsFile.writelines(unfoundStudents)
+
 elapsedTime = time() - START_TIME
 print "Elapsed time: %s" % elapsedTime
 
-tr = Texter()
-tr.key = 'chattyKathy'
+tr = Texter(key='chattyKathy')
 tr.send("'ubdir_scraper.py' has finished after %s seconds." % elapsedTime)
-tr.send("Students not found: %s" % '\n'.join(unfoundStudents))
+tr.send("%i students not found:\n %s"
+        % (len(unfoundStudents), '\n'.join(unfoundStudents)))
