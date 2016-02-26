@@ -185,9 +185,12 @@ with open(inFileName) as inFile:
                 matches = getUBIT(name, 'Computer Engineering')
                 students.update(matches)
                 PP.pprint(matches)
-            except IndexError:
+            except IndexError as e:
                 # Try again because it was likely an HTML retrieval error
-                continue
+                print "Index error received for %s" % name
+                print e
+                print "Adding %s to unfound students list" % name
+                unfoundStudents.append(name)
             except KeyError as e:
                 # No viable candidate found in getUBIT
                 print e
