@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" /Student_Data_Aquisition/scraper/ubdir_scraper.py
+""" /Student_Data_Aquisition/UBDirectoryScraper.py
 Scraper for for getting UB students' UBIT names from
     http://www.buffalo.edu/directory/
 Feel free to ignore any "E1102 selector('<*>') is not callable" errors you might
@@ -197,7 +197,7 @@ with open(inFileName) as inFile:
         sleep(WAIT_TIME)
 
 print 'Students not found:\n'
-print '\n'.join(unfoundStudents)
+print '\n    '.join(unfoundStudents)
 
 outFileName = os.path.join(os.getcwd(), 'UB_CEN_Info.json')
 with open(outFileName, 'w') as outFile:
