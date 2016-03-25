@@ -203,8 +203,7 @@ class UBDirectoryScraper:
     def scrape(self):
         # Guard against empty inputs
         if not self.inFileName:
-            print 'Need to set an input file (set with `UBDirectoryScraper.infile`)'
-            return
+            raise Exception('Need to set an input file (set with `UBDirectoryScraper.infile`)')
         if not self.outFileName:
             self.outFileName = datetime.datetime.today().strftime('%Y-%m-%d_%H-%M-%S') + '_out.json'
         if not self.infoFileName:
@@ -215,8 +214,10 @@ class UBDirectoryScraper:
             for line in infile:
                 # Parse line for names
                 name = line.strip()
+                print '%s:' % name
                 surName = name.split()[-1]
                 if surName in self.queriedSurNames:
+                    print '    Already queried'
                     continue
 
                 # Add to queried list to avoid over requesting website
@@ -225,8 +226,10 @@ class UBDirectoryScraper:
                 # Scrape for name
                 try:
                     matches = getUBIT(name, self.targetMajor)
+                    print '    ' + str(matches)
                     self.results.update(matches)
                 except (IndexError, KeyError):
+                    print '    Not found'
                     self.unfoundStudents.append(name)
 
                 # Sleep because the UB Directory is <em>WEAK</em>
