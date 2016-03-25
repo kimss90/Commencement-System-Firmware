@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """ /Student_Data_Aquisition/UBDirectoryScraper.py
 Scraper for for getting UB students' UBIT names from
     http://www.buffalo.edu/directory/
@@ -8,15 +7,13 @@ Feel free to ignore any "E1102 selector('<*>') is not callable" errors you might
 """
 
 from time import sleep, time
+import datetime
 from lxml import html
 from lxml.cssselect import CSSSelector as selector
-import os
 from pprint import PrettyPrinter
 import json
 
 import requests
-
-from texter import Texter
 
 START_TIME = time()
 WAIT_TIME = 2
@@ -161,56 +158,88 @@ def getUBIT(targetName, targetMajor):
         return candidates
 
 
+# inFileName = os.path.join(os.getcwd(), 'input_files/UB_CEN_Seniors.txt')
+# students = {}
+# unfoundStudents = []
+# queriedLastNames = set()
+# with open(inFileName) as inFile:
+#     for line in inFile:
+#         name = line.replace('\n', '')
+#         lastName = name.split()[-1]
+#         if lastName in queriedLastNames:
+#             print "%s's last name (%s) has been queried, skip" \
+#                 % (name, lastName)
+#             continue
+#         queriedLastNames.add(lastName)
+#         print '\n\n' + name + ':'
+#         try:
+#             matches = getUBIT(name, 'Computer Engineering')
+#             students.update(matches)
+#             PP.pprint(matches)
+#         except IndexError as e:
+#             # Try again because it was likely an HTML retrieval error
+#             print "Index error received for %s" % name
+#             print e
+#             print "Adding %s to unfound students list" % name
+#             unfoundStudents.append(name)
+#         except KeyError as e:
+#             # No viable candidate found in getUBIT
+#             print e
+#             print "Adding %s to unfound students list" % name
+#             unfoundStudents.append(name)
+#         sleep(WAIT_TIME)
 
-"""
-Scripting Loop
-"""
-inFileName = os.path.join(os.getcwd(), 'UB_CEN_Seniors.txt')
-students = {}
-unfoundStudents = []
-queriedLastNames = set()
-with open(inFileName) as inFile:
-    for line in inFile:
-        name = line.replace('\n', '')
-        lastName = name.split()[-1]
-        if lastName in queriedLastNames:
-            print "%s's last name (%s) has been queried, skip" \
-                % (name, lastName)
-            continue
-        queriedLastNames.add(lastName)
-        print '\n\n' + name + ':'
-        try:
-            matches = getUBIT(name, 'Computer Engineering')
-            students.update(matches)
-            PP.pprint(matches)
-        except IndexError as e:
-            # Try again because it was likely an HTML retrieval error
-            print "Index error received for %s" % name
-            print e
-            print "Adding %s to unfound students list" % name
-            unfoundStudents.append(name)
-        except KeyError as e:
-            # No viable candidate found in getUBIT
-            print e
-            print "Adding %s to unfound students list" % name
-            unfoundStudents.append(name)
-        sleep(WAIT_TIME)
+class UBDirectoryScraper:
+    results = {}
+    queriedSurNames = set()
+    unfoundStudents = []
 
-print 'Students not found:\n'
-print '\n    '.join(unfoundStudents)
+    def __init__(self, inFileName, outFileName=None, infoFileName=None, targetMajor='Computer Engineering'):
+        self.inFileName = inFileName
+        self.outFileName = outFileName
+        self.infoFileName = infoFileName
+        self.targetMajor = targetMajor
 
-outFileName = os.path.join(os.getcwd(), 'UB_CEN_Info.json')
-with open(outFileName, 'w') as outFile:
-    json.dump(students, outFile)
+    def scrape(self):
+        # Guard against empty inputs
+        if not self.inFileName:
+            print 'Need to set an input file (set with `UBDirectoryScraper.infile`)'
+            return
+        if not self.outFileName:
+            self.outFileName = datetime.datetime.today().strftime('%Y-%m-%d_%H-%M-%S') + '_out.json'
+        if not self.infoFileName:
+            self.infoFileName = datetime.datetime.today().strftime('%Y-%m-%d_%H-%M-%S') + '_info.txt'
 
-missedStudentsFileName = os.path.join(os.getcwd(), 'UB_CEN_missing.txt')
-with open(missedStudentsFileName, 'w') as missedStudentsFile:
-    missedStudentsFile.writelines(unfoundStudents)
+        startTime = time()
+        with open(self.inFileName) as infile:
+            for line in infile:
+                # Parse line for names
+                name = line.strip()
+                surName = name.split()[-1]
+                if surName in self.queriedSurNames:
+                    continue
 
-elapsedTime = time() - START_TIME
-print "Elapsed time: %s" % elapsedTime
+                # Add to queried list to avoid over requesting website
+                self.queriedSurNames.add(surName)
 
-tr = Texter(key='chattyKathy')
-tr.send("'ubdir_scraper.py' has finished after %s seconds." % elapsedTime)
-tr.send("%i students not found:\n %s"
-        % (len(unfoundStudents), '\n'.join(unfoundStudents)))
+                # Scrape for name
+                try:
+                    matches = getUBIT(name, self.targetMajor)
+                    self.results.update(matches)
+                except (IndexError, KeyError):
+                    self.unfoundStudents.append(name)
+
+                # Sleep because the UB Directory is <em>WEAK</em>
+                sleep(WAIT_TIME)
+
+        # Write results file
+        with open(self.outFileName, 'w') as outFile:
+            json.dump(self.results, outFile)
+
+        # Write info file
+        unfoundString = 'Students not found:\n    ' + '\n    '.join(self.unfoundStudents)
+        elapsedTime = str(time() - startTime)
+        with open(self.infoFileName, 'w') as infoFile:
+            infoFile.write('Elapsed time: %s' % elapsedTime)
+            infoFile.write('\n\n')
+            infoFile.writelines(unfoundString)
