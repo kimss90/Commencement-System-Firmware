@@ -1,9 +1,13 @@
 #!/usr/bin/python
 
 import json
+import os
 
-with open('output_files/eligible_CEN.json') as cenFile:
+sayCommand = 'say -o %s.wav --data-format=LEF32@8000 "%s"'
+
+with open('output_files/most_eligible_CEN.json', 'r') as cenFile:
     students = json.load(cenFile)
 
 for ubit, studentDict in students.iteritems():
-    print ubit
+    print studentDict['Name']
+    os.system(sayCommand % ('output_files/namewavs/%s' % ubit, studentDict['Name']))

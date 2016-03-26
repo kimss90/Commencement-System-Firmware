@@ -10,19 +10,22 @@ with open('output_files/2016-03-25_16-33-52_info.txt') as infoFile:
 # Create new manual student dict
 students = {}
 for studentName in studentNames:
-    ubit = input("%s's UBIT: " % studentName)
-    students[ubit] = {
-        'UBIT': ubit,
-        'Email': ubit + '@buffalo.edu',
-        'Title': 'Student',
-        'Department': 'Computer Engineering',
-        'Name': studentName
-    }
+    ubit = raw_input("%s's UBIT: " % studentName)
+    if not ubit:
+        students[ubit] = None
+    else:
+        students[ubit] = {
+            'UBIT': ubit,
+            'Email': ubit + '@buffalo.edu',
+            'Title': 'Student',
+            'Department': 'Computer Engineering',
+            'Name': studentName
+        }
 
 # Update final dict
-with open('output_files/eligible_CEN.json', 'w') as cenFile:
+with open('output_files/eligible_CEN.json') as cenFile:
     studentDict = json.load(cenFile)
 
-    studentDict.update(students)
-    cenFile.truncate()
-    json.dump(studentDict, cenFile)
+studentDict.update(students)
+with open('output_files/all_CEN.json', 'w') as allFile:
+    json.dump(studentDict, allFile)
